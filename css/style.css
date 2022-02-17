@@ -1,0 +1,34 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bg_black{
+    background-color: black;
+}
+.custom-font-h3{font-size: 38px;}
+
+.about-section p{font-size: 16 px;line-height: 28px;}
+.home-slider h2{font-size: 48px;line-height: auto;}
+.home-slider .btn-outline-light{font-size: 25px;line-height: normal;}
+.service-box h4{font-size: 24px;}
+/* adding backgroung imahe in ond section of class  cover used for cover entire section */
+.contact-section{background-image: url(../images/footer-bk.jpg);background-size: cover; background-repeat: no-repeat;}
+.address-box p{font-size: 16px; line-height: 22px;}
+.contact-box .form-control{height: 50px;}
+.contact-box textarea.form-control{height: 150px;}
+@media (max-width :991px)
+{
+    #focuzSlider .carousel-caption h2 {
+        font-size: 34px;
+    }
+}
+@media(max-width:767px){
+    .header-section .navbar-brand img {
+        width: 200px;
+    }
+   
+}
+
+
+
+
